@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+    background-color: #0A0A10;
+    color: #ffffff
+}
+
+.image {
+    display: flex;
+    width: 366.58px;
+    height: 256px;
+    margin: 57px 0 0 24px;
+    align-items: center;
+}
+
+
+img {
+    display: flex;
+    /* width: 366.58px;
+    height: 256px;
+    margin: 57px 0 0 24px;
+    align-items: center; */
+    background: radial-gradient(circle at center, #FFF 2%, #0A0A10 73%);
+}
+
+h1 {
+    display: flex;
+    margin: 52px 0 0 98px;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 32.81px;
+    text-align: center;
+}
+
+section {
+    display: grid;
+    align-items: center;
+    margin: 50px 0 0 36px;
+    gap: 30px;
+}
+
+.email,
+.password {
+    width: 342px;
+    border-bottom: 0.5px solid #ffffff;
+}
+
+.label-sec {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 20px;
+    letter-spacing: -0.41px;
+    text-align: left;
+    margin-left: 7px;
+    opacity: 60%;
+}
+
+.input {
+    width: 194px;
+    height: 20px;
+    margin-top: 11px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    letter-spacing: -0.24px;
+    text-align: left;
+    margin-left: 7px;
+    border: none;
+    opacity: 100%;
+}
+
+.margin {
+    margin-bottom: 8px;
+}
+
+.button {
+    display: grid;
+    align-items: center;
+    width: 342px;
+    margin: 24px 0 0 36px;
+    gap: 14px;
+}
+
+.logo {
+    width: 18px;
+    height: 18px;
+    margin: -1px 1px -11px 64px;
+    padding: 0;
+    background: transparent;
+}
+
+.button button:first-child {
+    background-color: #D93856;
+    height: 68px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 2.5px;
+    border: none;
+    cursor: pointer;
+}
+
+.button button:last-child {
+    background-color: #FFFFFF24;
+    height: 68px;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 2.5px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    display: flex;
+    width: 170px;
+    margin: 55px 0 0 123px;
+    align-items: center;
+    font-size: 14px;
+    line-height: 16.41px;
+    gap: 5px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.newbie {
+    font-size: 14px;
+    line-height: 16.41px;
+    opacity: 60%;
+}
